@@ -1,0 +1,20 @@
+[project]
+name = "config_setup"
+description = "Config Setup for Python - create and save settings or configurations"
+version = "0.7.8"
+readme = "README.md"
+authors = [
+    { name = "Lyubomir Ternavskiy", email = "ternavski103@gmail.com" }
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tools.flit.metadata]
+module="config_setup.py"
+
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
